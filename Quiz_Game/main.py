@@ -14,6 +14,7 @@ for question in question_data:
 quiz = QuizBrain(question_bank)
 
 while quiz.still_has_questions():  # if quiz still has questions remaining
+
     quiz.next_question()
 else:
     print("You´ve completed the quiz")
