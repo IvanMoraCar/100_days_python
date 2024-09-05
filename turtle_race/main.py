@@ -28,7 +28,6 @@ while is_race_on:
             winning_color = turtle.pencolor()
             if winning_color == user_bet:
 
-                screen.
                 print(f"You´ve won! {winning_color} turtle is the winner!")
             else:
                 print(f"You´ve lost! {winning_color} turtle is the winner!")
